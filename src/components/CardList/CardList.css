@@ -1,0 +1,41 @@
+.card-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.sorting-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+}
+
+.sort {
+  margin-right: 1%;
+}
+
+.sorting-options select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.sorting-options select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.sorting-options select:hover {
+  border-color: #888;
+}
